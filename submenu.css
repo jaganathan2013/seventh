@@ -1,0 +1,124 @@
+
+/*
+=============== 
+Stripe Styles
+===============
+*/
+
+  .sidebar-wrapper{
+      display: none;
+  }
+  
+  
+  /* .nav-links {
+    display: none;
+  } */
+  /* -------------------------------- */
+  
+  /* nav media query */
+  /* @media screen and (min-width: 800px) {
+   
+    .nav-links {
+      display: block;
+      justify-self: center;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      text-align: center;
+      height: 100%;
+      display: grid;
+      align-items: center;
+    }
+    
+  
+  } */
+  
+  /* links */
+  .backc{
+    height: 8.5rem;
+    background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(218, 213, 195) 100%);
+    border-radius:  0.75rem;
+    padding: 1rem;
+  }
+  .submenu {
+    background: linear-gradient(0deg, rgb(194, 191, 175) 0%, rgb(238, 245, 247) 100%);
+    box-shadow: 0 5px 15px rgba(54, 50, 50, 0.2);
+    position: absolute;
+    top: 4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+    display: none;
+    padding: 1rem;
+    border-radius:  0.75rem;
+  }
+  .submenu::before {
+    content: '';
+    display: block;
+    width: 0.7rem;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 8px solid rgb(81, 211, 250);
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+  }
+  
+  .submenu.show {
+    display: block;
+  }
+  
+  .submenu-center {
+    display: grid;
+    gap: 0.25rem;
+  }
+  .col-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .col-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .col-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .submenu h4 {
+    margin-bottom: 1.5rem;
+  }
+  .submenu-center a {
+    width: 7.1rem;
+    display: flex;
+    color: rgb(37, 37, 54);
+    text-transform: capitalize;
+    align-items: center;
+    padding-right: 0.5rem;
+    border-bottom: 5px solid rgba(255, 255, 255, 0);
+    padding-bottom: 0.5rem;
+  }
+  .submenu-center a:hover{
+    box-shadow: rgba(91, 216, 233, 0.9) 0px 25px 34px;
+    /* font-size: 1rem; */
+    /* padding-right: 0.5rem;
+    border-radius: 15%; */
+    /* background-color: rgb(255, 0, 0); */
+    border-bottom: 5px solid rgb(0, 195, 255);
+    padding-bottom: 0.5rem;
+  }
+
+  .submenu-center a i {
+    display: flex;
+    border-radius: 20%;
+    margin-right: 0.5rem;
+   background: rgb(133, 202, 214);
+    font-size: 1.4rem;
+    color: rgba(115, 138, 141, 0.993);
+    align-items: center;
+  }
+  /* .submenu-center i {
+    color: red;
+    margin-right: 1rem;
+  } */
+
+
+  

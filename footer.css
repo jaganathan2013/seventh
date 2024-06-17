@@ -1,0 +1,126 @@
+.foot{
+/* width: 114.4rem; */
+height: 33rem;
+background: rgb(30, 46, 56);
+display: flex;
+flex-direction: column;
+padding: 3rem 15rem;
+gap: 2rem;
+}
+.data-box1{
+    display: flex;
+gap: 3rem;
+cursor: pointer;
+display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   
+}
+.data-box1 p{
+    border-bottom:2px solid rgba(0, 195, 255, 0) ;
+/* width: 8rem; */
+
+}
+.data-box1 p:hover{
+    border-bottom:2px solid rgb(0, 195, 255) ;
+
+}
+.data-box1 .data{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: white;
+}
+.data-box1 :nth-child(3){
+    padding-right: 3rem;
+    /* width: 20rem; */
+}
+.data-box1 .dat{
+    width: 14rem;
+font-size: 1.3rem;
+font-weight: 700;
+}
+
+.foot .line{
+    height: 0.2rem;
+    background: rgb(7, 138, 190);
+    width: 84rem;
+    /* position: relative; */
+}
+.data-box2 button{
+    width: 9rem;
+    font-size: 1.2rem;
+    height: 2.6rem;
+    margin-left: 38rem;
+    border: 1px solid white;
+    background: rgb(27, 48, 53);
+    border-radius: 0.2rem;
+    color: white;
+    cursor: pointer;
+}
+.data-box2 button:hover{
+    color:rgb(7, 138, 190);
+    border-color: rgb(7, 138, 190);
+}
+.data-box2{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.data-box2 .link{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 1rem;
+   
+}
+.data-box2 a{
+ color: white;
+ font-size: 1rem;
+ cursor: pointer;
+ border-bottom:2px solid rgba(255, 0, 0, 0) ;
+}
+.data-box2 a:hover{
+    border-bottom:2px solid rgb(0, 195, 255) ;
+}
+
+.last ,.last1{
+    padding: 1rem 15rem;  
+    background: rgb(54, 22, 22);
+}
+  /* grid-template-columns: repeat(2, 1fr); */
+  .last .a{
+    background: rgb(54, 22, 22);
+    color: white;
+    display: grid;
+    /* grid-template-columns: repeat(5, 1fr); */
+  grid-template-columns: auto auto auto auto auto;
+  grid-column-gap: 7rem;
+  grid-row-gap: 20px;
+  }
+  .last1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    align-content: center;
+    padding-bottom:3rem; 
+}
+  .last >ul >li >a , .ee >a{
+    /* padding-left: 4rem; */
+   color: white;
+  font-size: 0.9rem;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+  }
+  .last >ul >li >a:hover , .last1 >ul >li >a:hover ,.ee >a:hover{
+    border-bottom: 1px solid rgb(255, 255, 255);
+  }
+  .last1 .a{
+      display: flex;
+     gap: 3rem;
+  }
+  .last1 >ul >li >a{
+
+    color: white;
+  }

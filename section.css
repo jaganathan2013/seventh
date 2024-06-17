@@ -1,0 +1,128 @@
+
+.fadeIn{
+	animation-name: fadeIn;
+}
+
+/************CSS Animation***********/
+.animated{ 
+	animation-name: fadeIn; 
+	animation-duration: 1s;
+}
+
+section{
+    padding: 1rem;
+    display: flex;
+    margin: 2rem 2.8rem;
+    gap: 1.8rem;
+    background: rgb(255, 255, 255);
+	height: 28rem;
+}
+/* -------------------------------------- */
+.hcg-slider ,.hcg-slidera,.hcg-slideraa,.hcg-sliderq,.hcg-sliderqq{
+width:30.1rem ;text-align: center;
+    width: 25rem;
+	height:20rem;
+	position: relative;
+
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* .hcg-slider-1, .hcg-slider-1a , .hcg-slider-1aa, .hcg-slider-1q, .hcg-slider-1qq{
+	
+} */
+.hcg-slide-text , .hcg-slide-texta , .hcg-slide-textaa, .hcg-slide-textq, .hcg-slide-textqq{
+	color: #000000;
+	font-size: 14px;
+	padding: 3px 5px;
+	position: absolute;
+	/* bottom: 0; */
+	/* border-radius: 5px; */
+	top:3rem;
+	left: 14rem;
+	text-align: center;
+	width: 8rem;
+
+	height: 11rem;
+	text-shadow: 0 0 2px #000;
+	border: 1px solid white;
+	display: inline-block;
+	transform: translate(-50%, -5px);
+	/* box-shadow: rgba(85, 146, 207, 0.603) 0px 12px 24px; */
+}
+.hcg-slide-dot-control,.hcg-slide-dot-controla , .hcg-slide-dot-controlaa, .hcg-slide-dot-controlq, .hcg-slide-dot-controlqq{
+	margin-top: 1rem;
+	text-align: center;
+	display: flex;
+	gap: 0.8rem;
+}
+
+
+
+.hcg-slides,.hcg-slidesa , .hcg-slidesaa, .hcg-slidesq, .hcg-slidesqq{
+		/* height:20rem; */
+		display: none;
+		overflow: hidden;
+		justify-content: center;
+		align-items: center;
+		border-radius: 5px;
+		height: 17rem;
+		background: linear-gradient(135deg, rgb(255, 255, 255) 0%, rgba(13, 200, 247, 0.144) 100%);
+   
+}
+
+.hcg-slide-dot,.hcg-slide-dota , .hcg-slide-dotaa , .hcg-slide-dotq , .hcg-slide-dotqq  {
+	/* cursor: pointer; */
+	height: 7.5rem;
+	width: 6.1rem;
+    object-fit: cover;
+	/* border-radius: 50%; */
+	display: inline-block;
+    /* border: 2px solid rgb(255, 255, 255); */
+}
+.hcg-slide-dot.dot-active,.hcg-slide-dota.dot-activea , .hcg-slide-dotaa.dot-activeaa, .hcg-slide-dotq.dot-activeq, .hcg-slide-dotqq.dot-activeqq{
+	border-bottom: 8px solid #11b2f1;
+	background: #9cc1cc31;
+	box-shadow: rgba(83, 209, 226, 0.9) 0px 12px 24px;
+
+}
+.hcg-slide-dot>img,.hcg-slide-dota>img , .hcg-slide-dotaa>img , .hcg-slide-dotq>img , .hcg-slide-dotqq>img  {
+	height: 6rem;
+	width: 3rem;
+	margin-top: 0.5rem;
+}
+
+
+.fadeIna , .fadeInaa, .fadeInq, .fadeInqq{
+	animation-name: fadeIn;
+}
+.hcg-slides>img,.hcg-slidesa>img,.hcg-slidesaa>img,.hcg-slidesq>img,.hcg-slidesqq>img{
+	position: absolute;
+	top: 3rem;
+	left: 2rem;
+	width: 5rem;
+	height: 11rem;
+}
+
+.hcg-slides>img:hover,.hcg-slidesa>img:hover,.hcg-slidesaa>img:hover,.hcg-slidesq>img:hover,.hcg-slidesqq>img:hover{
+	width: 6rem;
+	height: 12rem;
+	box-shadow: rgb(98, 102, 105) 0px 12px 24px;
+	cursor: pointer;
+}
+
+.hcg-slide-number,.hcg-slide-numbera , .hcg-slide-numberaa, .hcg-slide-numberq, .hcg-slide-numberqq{
+	color: #000000;
+	font-size: 1rem;
+	padding: 4px 7px;
+	position: absolute;
+	border-radius: 5px;
+	top: 5px;
+	left: 5px;
+	background: linear-gradient(135deg, rgb(241, 226, 199) 0%, rgb(235, 191, 49) 100%);
+}
+/************CSS Animation***********/
+
+.animateda , .animatedaa , .animatedq , .animatedqq{ 
+	animation-name: fadeIn; 
+	animation-duration: 1s;
+}
